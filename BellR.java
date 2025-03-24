@@ -55,6 +55,25 @@ public class BellR {
         System.out.println("Bell Brand is " + b7.brand);
         System.out.println("Bell Price is " + b7.price);
         System.out.println("Bell Material is " + b7.material);
+
+
+        bell b8=new Bell("Gold",4000,"Gold-Silver-Plated");
+        System.out.println("Brand is " +b8.brand);
+        System.out.println("Bell Price is " + b8.price);
+        System.out.println("Bell Material is " + b8.material);
+
+
+         bell b9=new Bell("Bronze",800,"Bronze-Plated");
+        System.out.println("Brand is " +b9.brand);
+        System.out.println("Bell Price is " + b9.price);
+        System.out.println("Bell Material is " + b9.material);
+
+        bell b10=new Bell("Rusty",8000,"Rusty-Plated");
+        System.out.println("Brand is " +b10.brand);
+        System.out.println("Bell Price is " + b10.price);
+        System.out.println("Bell Material is " + b10.material);
+
+        
     }
 }
 
