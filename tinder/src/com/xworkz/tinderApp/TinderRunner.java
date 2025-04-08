@@ -8,9 +8,9 @@ public class TinderRunner {
     public static void main(String arg[]){
 
         TinderDto tinderDto = new TinderDto();
-        tinderDto.setEmail("bgsu335");
-        tinderDto.setName("mjutes");
-        tinderDto.setPhnNo(5638298643l);
+        tinderDto.setEmail("bgs@gmail.com");
+        tinderDto.setName("kjc");
+        tinderDto.setPhnNo(563827643743l);
         tinderDto.setGender(Gender.female);
 
         Tinder flipkart = new Tinder();
