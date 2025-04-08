@@ -8,9 +8,9 @@ public class BBCRunner {
     public static void main(String arg[]){
 
         BCCDto bccDto = new BCCDto();
-        bccDto.setEmail("bgsu335");
-        bccDto.setName("mjutes");
-        bccDto.setPhnNo(5638298643l);
+        bccDto.setEmail("bgsu355");
+        bccDto.setName("lures");
+        bccDto.setPhnNo(565898643l);
         bccDto.setPreferences(News.International);
 
         BBC bbc = new BBC();
