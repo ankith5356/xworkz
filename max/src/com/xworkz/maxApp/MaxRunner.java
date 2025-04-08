@@ -6,10 +6,10 @@ public class MaxRunner {
     public static void main(String arg[]){
 
         MaxDto maxDto = new MaxDto();
-        maxDto.setFullName("Shalini");
+        maxDto.setFullName("Ankit");
         maxDto.setEmailAddress("cshali@345");
-        maxDto.setPassword("Shali4553");
-        maxDto.setConfirmPassword("Shali4553");
+        maxDto.setPassword("Anki4553");
+        maxDto.setConfirmPassword("ankiuyv4553");
 
         MaxDto maxDto1 = new MaxDto();
         if(maxDto1.isUser(maxDto)){
