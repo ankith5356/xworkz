@@ -8,11 +8,11 @@ public class FaceBookRunner {
     public  static  void main(String arg[]){
 
         FaceBookDto faceBookDto = new FaceBookDto();
-        faceBookDto.setFullName("Shalini");
-        faceBookDto.setDob("17/6/03");
-        faceBookDto.setEmail("sgjlai@346");
-        faceBookDto.setPassword("ghjuyr");
-        faceBookDto.setGender(Gender.Female);
+        faceBookDto.setFullName("Ankit");
+        faceBookDto.setDob("17/9/03");
+        faceBookDto.setEmail("ank@346");
+        faceBookDto.setPassword("gnfgyr");
+        faceBookDto.setGender(Gender.Male);
 
         FaceBook faceBook = new FaceBook();
         if(faceBook.registerUser(faceBookDto)){
