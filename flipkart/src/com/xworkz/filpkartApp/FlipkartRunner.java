@@ -8,9 +8,9 @@ public class FlipkartRunner {
     public static void main(String arg[]){
 
         FlipkartDto flipkartDto = new FlipkartDto();
-        flipkartDto.setEmail("bgsu335");
+        flipkartDto.setEmail("bgdij@mail.com");
         flipkartDto.setName("mjutes");
-        flipkartDto.setPhnNo(5638298643l);
+        flipkartDto.setPhnNo(563965643l);
         flipkartDto.setPaymentInformation(Payment.cashondelivery);
 
         Flipkart flipkart = new Flipkart();
